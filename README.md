@@ -18,7 +18,7 @@ pip install -r requirements.txt
 The code is split into 3 executable-able steps as depicted in the process pipeline for the 2 datasets under consideration:
 
 ![Process Pipeline](https://github.com/aadarshgupta1412/covid-symptoms-classification/blob/main/img/process_pipeline.svg)
-
+<img src="https://github.com/aadarshgupta1412/covid-symptoms-classification/blob/main/img/process_pipeline.svg" >
 
 - [001_prepare_dataset.py](001_prepare_dataset.py): filters the key symptoms from raw data and encodes them to process the raw dataset.
 
