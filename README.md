@@ -1,8 +1,8 @@
-# COVID-19 Cough Classification using PyTorch
+# Text-Based Diagnosis of COVID-19 Using Data Mining Techniques: A Comparative Study
 
-## Overview
+## Abstract
 
-The aim of this project is to classify audio recordings of coughs into COVID-19 positive and negative.
+In the course of the recent pandemic, we have witnessed non-clinical approaches such as data mining and artificial intelligence techniques being exceedingly utilized to restrain and combat the increase of COVID-19 across the globe. The emergence of artificial intelligence in the medical field has helped in reducing the immense burden on medical systems by providing the best means for diagnosis and prognosis of COVID-19. This work attempts to analyze & evaluate superlative models on robust data resources on symptoms of COVID-19, consisting of age, gender, demographic information, pre-existing medical conditions, and symptoms experienced by patients. This study establishes a paradigmatic pipeline of supervised learning algorithms coupled with feature extraction techniques and surpasses the current state-of-the-art results by achieving an accuracy of 93.360. The optimal score was found by performing feature extraction on the data using principal component analysis (PCA) followed by binary classification using the AdaBoost classifier. In addition, the present study also establishes the contribution of various symptoms in the diagnosis of the malady.
 
 ## Installation
 
@@ -14,12 +14,10 @@ pip install -r requirements.txt
 
 ## Running the code
 
-The code is split into four notebooks:
+The code is split into 3 executable-able steps for the 2 different datasets under consideration:
 
-1. [001_prepare_data.ipynb](001_prepare_data.ipynb): This notebook extracts the features of the wav files and writes them to a new csv file.
-2. [002_training.ipynb](002_training.ipynb): Trains and evaluates the CoughNet using the extracted features. Finally a checkpoint is saved.
-3. [003_inference.ipynb](003_inference.ipynb): Uses the saved checkpoint to predict on an input wav file. There is also a [pretrained checkpoint](checkpoints/) available.
-4. [004_k_fold_cross_validation.ipynb](004_k_fold_cross_validation.ipynb): K-fold Cross Validation for objective evaluation.
+- [001_prepare_dataset.py](001_prepare_dataset.py): This file filters the key symptoms from raw data and encodes them to process the raw dataset.
+- [001_coswara_dataset](001_coswara_dataset): 
 
 ## Datasets
 
