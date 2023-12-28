@@ -20,7 +20,7 @@ The code is split into 3 executable-able steps as depicted in the process pipeli
 - [001_prepare_dataset.py](001_prepare_dataset.py): filters the key symptoms from raw data and encodes them to process the raw dataset.
 
 - [001_coswara_dataset](001_coswara_dataset):
---- [001_coswara_data_setup.py][001_coswara_dataset/001_coswara_data_setup.py]: provides a preliminary analysis and summary report of results for various classifiers without performing feature extraction on the processed coswara dataset
+-- [001_coswara_data_setup.py][001_coswara_dataset/001_coswara_data_setup.py]: provides a preliminary analysis and summary report of results for various classifiers without performing feature extraction on the processed coswara dataset
 --- [002_PCA.py](001_coswara_dataset/002_PCA.py)/[003_UMAP.py](001_coswara_dataset/003_UMAP.py)/[004_ISOMAP.py](001_coswara_dataset/004_ISOMAP.py): implements feature extraction using PCA/UMAP/ISOMAP followed by classifier on the coswara dataset
 --- [005_FR_comparison.py](001_coswara_dataset/005_FR_comparison.py): provides a summary report and plots for comparison of the 3 feature extraction techniques applied on the coswara dataset
 
