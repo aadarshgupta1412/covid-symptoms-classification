@@ -1,5 +1,5 @@
 # Text-Based Diagnosis of COVID-19 Using Data Mining Techniques: A Comparative Study
-[PDF](https://ieeexplore.ieee.org/document/10040129/)/[Presentation]()
+[PDF](https://ieeexplore.ieee.org/document/10040129/)/[Presentation](INDICON2022_Presentation.pdf)
 
 ## Abstract
 
