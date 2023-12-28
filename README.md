@@ -25,9 +25,9 @@ The code is split into 3 executable-able steps as depicted in the process pipeli
   - [005_FR_comparison.py](001_coswara_dataset/005_FR_comparison.py): provides a summary report and plots for comparison of the 3 feature extraction techniques applied on the coswara dataset
 
 - [002_symptoms_and_covid_presence_dataset](002_symptoms_and_covid_presence_dataset):
---- [001_kaggle_data_setup.py](002_symptoms_and_covid_presence_dataset/001_kaggle_data_setup.py): provides a preliminary analysis and summary report of results for various classifiers without performing feature extraction on the processed symptoms and covid presence (kaggle) dataset
---- [002_PCA.py](002_symptoms_and_covid_presence_dataset/002_PCA.py)/[003_UMAP.py](002_symptoms_and_covid_presence_dataset/003_UMAP.py)/[004_ISOMAP.py](002_symptoms_and_covid_presence_dataset/004_ISOMAP.py): implements feature extraction using PCA/UMAP/ISOMAP followed by classifier on the kaggle dataset
---- [005_FR_comparison.py](002_symptoms_and_covid_presence_dataset/005_FR_comparison.py): provides a summary report and plots for comparison of the 3 feature extraction techniques applied on the kaggle dataset
+  - [001_kaggle_data_setup.py](002_symptoms_and_covid_presence_dataset/001_kaggle_data_setup.py): provides a preliminary analysis and summary report of results for various classifiers without performing feature extraction on the processed symptoms and covid presence (kaggle) dataset
+  - [002_PCA.py](002_symptoms_and_covid_presence_dataset/002_PCA.py)/[003_UMAP.py](002_symptoms_and_covid_presence_dataset/003_UMAP.py)/[004_ISOMAP.py](002_symptoms_and_covid_presence_dataset/004_ISOMAP.py): implements feature extraction using PCA/UMAP/ISOMAP followed by classifier on the kaggle dataset
+  - [005_FR_comparison.py](002_symptoms_and_covid_presence_dataset/005_FR_comparison.py): provides a summary report and plots for comparison of the 3 feature extraction techniques applied on the kaggle dataset
   
 ## Datasets
 
