@@ -52,5 +52,7 @@ The dataset was created as a synthetic substitute based on a WHO report to study
 
 ![feature_importance](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/e6dc1a0c-6e69-4b05-a7a9-7418a57d76df)
 
+![result1](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/81638035-708c-45ec-97c3-09d9f9f3f877)
 
 ![result2](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/91e05d89-cfd1-4b52-8c5d-55cefd3c2559)
+
