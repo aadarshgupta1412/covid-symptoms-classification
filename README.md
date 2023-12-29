@@ -1,4 +1,4 @@
-![feature_importance](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/315b1702-729c-4b45-98ae-244d30685b4a)# Text-Based Diagnosis of COVID-19 Using Data Mining Techniques: A Comparative Study
+# Text-Based Diagnosis of COVID-19 Using Data Mining Techniques: A Comparative Study
 [PDF](https://ieeexplore.ieee.org/document/10040129/)/[Presentation](INDICON2022_Presentation.pdf)
 
 ## Abstract
@@ -6168,6 +6168,7 @@ The dataset was created as a synthetic substitute based on a WHO report to study
 
 ## Results
 
+![feature_importance](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/315b1702-729c-4b45-98ae-244d30685b4a)
 
 ![Uploading feature_importanc<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
@@ -7642,7 +7643,8 @@ L 418.023087 26.8
  <defs>
   <clipPath id="pf5091c3e1a">
    <rect height="233.4" width="264.223087" x="153.8" y="26.8"/>
-  </clipPath>![result2](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/f22e4bbb-1d59-45f1-b852-75a35f3dd211)
+  </clipPath>
+      ![result2](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/f22e4bbb-1d59-45f1-b852-75a35f3dd211)
 
  </defs>
 </svg>
