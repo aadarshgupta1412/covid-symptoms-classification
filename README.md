@@ -50,9 +50,13 @@ The dataset was created as a synthetic substitute based on a WHO report to study
 
 ## Results
 
+It is concluded that PCA outperforms the viable feature reduction strategies implemented while also being the most efficient in contrast to the drop in performance in UMAP. ISOMAP did perform admirably well, however computational limitations for the technique resulted in PCA being chosen as the superlative technique in this experiment. Optimal results for PCA is observed when 7 principal components are chosen, i.e., n_components = 7.
+
 ![feature_importance](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/e6dc1a0c-6e69-4b05-a7a9-7418a57d76df)
 
 ![result1](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/81638035-708c-45ec-97c3-09d9f9f3f877)
+
+We found that PCA when coupled with the AdaBoost classifier gives the best performance with an accuracy of 93.630 on the n Symptoms and COVID Presence dataset.
 
 ![result2](https://github.com/aadarshgupta1412/covid-symptoms-classification/assets/62350692/91e05d89-cfd1-4b52-8c5d-55cefd3c2559)
 
